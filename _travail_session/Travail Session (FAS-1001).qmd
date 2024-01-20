@@ -1,0 +1,16 @@
+---
+title: "Travail Session (FAS-1001)"
+format: pdf
+editor: visual
+author: Apolline Tritz
+---
+
+# Introduction
+
+## Problématique de recherche
+
+## Données et méthodes
+
+# Résultats
+
+## Conclusion
