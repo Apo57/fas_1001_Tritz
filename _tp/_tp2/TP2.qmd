@@ -2,6 +2,8 @@
 title: "TP2_Tritz : Etude de l'évolution des taux de vol de biens du ménage dans des maisons depuis 1999 (option 2) "
 author: "Apolline Tritz"
 format: pdf
+lang: fr
+bibliography: bibliography.bib
 editor: visual
 date: 2024-02-05
 ---
@@ -28,7 +30,7 @@ Les variables qui m'ont intéressée pour cette étude sont THFTHP (vol de biens
 
 Dans un premier temps, j'ai importé mes 3 bases de données trouvées sur Odesi, dans R. Ces bases de données sont les résultats aux Enquêtes de Sociales Générailisées (ESG) sur la victimisation des années 1999, 2009 et 2019. J'avais seulement pour l'année 1999, un fichier .csv, donc j'ai décidé de tous les télécharger en fichier .sav. J'ai importé ces bases de données grâce à la fonction "read_sav" et j'ai enregistré chacune des bases de données dans son objet "ESG_date" correspondant. Une fois cela effectué, j'ai dû convertir ces fichiers .sav en fichiers .csv, grâce à la fonction "write.csv" et je les ai enregistrées dans un nouvel objet, "ESG_date\_".
 
-J'ai pu commencer mon travail de nettoyage de ma base de données. Pour ce faire, pour chaque base de données, j'ai sélectionné les variables qui me seront utiles pour la suite de l'analyse. Pour chacune des bases de données, je les ai enregistrées dans un nouvel objet "ESG_date_1". Dans l'objet "ESG_1999_1", j'ai sélectionné les variables : THFTHP, DWELINCC, V1A, A_THFTHP. Dans l'objet "ESG_2009_1", j'ai sélectionné les variables : THFTHP, DWELINC_C et A_THFTHP. Dans l'objet ESG_2019_1, j'ai sélectionné les variables : THFTHP, A_THFTHP et WHR_100.
+J'ai pu commencer mon travail de nettoyage de ma base de données. Pour ce faire, pour chaque base de données, j'ai sélectionné les variables qui me seront utiles pour la suite de l'analyse. Pour chacune des bases de données, je les ai enregistrées dans un nouvel objet "ESG_date_1". Dans l'objet "ESG_1999_1", j'ai sélectionné les variables : THFTHP, DWELINCC, V1A, A_THFTHP. Dans l'objet "ESG_2009_1", j'ai sélectionné les variables : THFTHP, DWELINC_C et A_THFTHP. Dans l'objet ESG_2019_1, j'ai sélectionné les variables : THFTHP, A_THFTHP et WHR_100. @sierz2008amelia
 
 Pour les 3 bases de données différentes, dans un nouvel objet ESG_date_2, j'ai créé une nouvelle variable "Vol_ménage_maison" où chaque observation qui était égale à 1 (1= il y a eu un vol de biens du ménage) dans la variable THFTHP prenait la valeur 1. Si l'observation n'était pas égale à 1, elle prenait la valeur de 0. J'ai fait la même manipulation pour les 3 bases de données différentes, avec la création de la variable "Tentative_vol_ménage_maison" où chaque observation qui était égale à 1 (1= il y a eu une tentative de vol de biens du ménage) dans la variable A_THFTHP prenait la valeur 1. Si l'observation n'était pas égale à 1, elle prenait la valeur de 0.
 
@@ -44,10 +46,9 @@ Toutefois, grâce à cette étude descriptive, nous pouvons constater qu'une aug
 
 Pour la continuité de cette étude, il revêt une importance cruciale de démêler les facteurs qui ont contribué à cette diminution. Comprendre ces éléments permettra d'identifier des leviers susceptibles d'être exploités pour maintenir cette tendance positive. L'exploration des divers facteurs significatifs, quant à la diminution des vols de biens du ménage, sera essentielle pour élaborer des stratégies efficaces en vue de renforcer la sécurité des biens du ménage.
 
-# Bibliographie
-Thatcher, Amelia. « Crimes contre les biens | Gendarmerie royale du Canada », 15 octobre 2015. https://www.rcmp-grc.gc.ca/fr/gazette/crimes-contre-les-biens.
+\clearpage
 
-# Annexe code
+# Annexe code {.unnumbered}
 
 ```{r}
 ESG_1999 <- read_sav("/Users/apolline/Desktop/FAS1001/fas_1001_Tritz/_tp/_tp2/ESG_1999.sav")
@@ -139,3 +140,8 @@ nrow(ESG_1999_3_sansNA)
 nrow(ESG_2009_3_sansNA)
 nrow(ESG_2019_3_sansNA)
 ```
+
+\clearpage
+
+gg# Bibliographie {.unnumbered}
+
