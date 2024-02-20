@@ -1,0 +1,226 @@
+---
+title: "TP3 : Différenciation dans le jugement selon le genre"
+format: pdf
+lang: fr
+bibliography: bibliography.bib
+editor: visual
+---
+
+```{r}
+library(pkgbuild)
+```
+
+```{r}
+devtools::install_github("clessn/clessnverse", force = T)
+```
+
+```{r, eval=FALSE}
+install.packages("pkgbuild")
+```
+
+```{r eval= FALSE}
+install.packages("SnowballC")
+install.packages("pdftools")
+install.packages("wordcloud")
+install.packages("RColorBrewer")
+install.packages("wordcloud2")
+```
+
+```{r}
+library(pdftools)
+library(tidyverse)
+library(SnowballC)
+library(tidytext)
+library(clessnverse)
+library(ggplot2)
+library(wordcloud)
+library(RColorBrewer)
+library(wordcloud2)
+library(dplyr)
+library(quanteda)
+```
+
+\clearpage
+
+# Introduction et problématique
+
+La pénologie est une discipline qui s'intéresse aux peines données par un juge à une personne ayant commis un crime. Jusqu'à récemment, la recherche ne distinguait pas que l'accusé soit une femme ou un homme, car la majorité des situations étudiées étaient lorsque l'accusé était masculin \cite{vanhamme2007}. Certains auteurs vont mettre en avant qu'il existe une différence dans les peines données en raison du genre ; les femmes recevraient des peines plus clémentes \cite{spohn1998chivalry}. Des auteurs comme Goethals et al., \cite{goethals1995vrouwen}, vont expliquer cela car les femmes auraient moins d'antécédents et commettraient des crimes de gravité moindre.
+
+
+Ce traitement différentiel peut être expliqué par un comportement paternaliste du juge \cite{pollak1950criminality} ; par le « coût social et familial de la peine » \cite{vanhamme2007recherche} ou encore la faiblesse psychologique des femmes qui doivent être aidées plutôt que punies \cite{gelsthorpe2001critical}.
+
+Étant donné que la différenciation entre femme et homme est effective dans le champ de la pénologie, il est intéressant de se questionner sur ses conséquences dans les jugements de Cour. Est-ce que femmes et hommes sont jugés de la même façon pour un crime similaire ?
+
+Pour ce travail, j'ai choisi de sélectionner deux jugements de Cour de la Chambre du Québec, pour une infraction de conduite avec facultés affaiblies ayant causé la mort. Dans le but d'analyse des propos du juge, j'ai seulement sélectionné la partie analyse du jugement. Le premier jugement nommé « Barette » est celui d'une femme et le deuxième nommé « Légaré » est celui d'un homme. Ces deux jugements ont été émis par un juge masculin, en 2023 et 2022 respectivement.
+
+\clearpage
+
+# Méthodologie
+
+Tout d'abord, j'ai importé mes deux parties analyse des jugements, afin de pouvoir créer une base de données, comprenant les textes mis en minuscule, la date des jugements, le sexe des accusés. J'ai rendu les textes en minuscules, afin que lorsque j'analyserai les corpus avec mon dictionnaire, ce dernier soit capable de reconnaitre tous les mots.
+
+Ensuite, j'ai créé mon dictionnaire, car je n'en ai pas trouvé qui étudiait spécifiquement ce que je souhaitais, c'est-à-dire des concepts de la détermination de la peine. Mon dictionnaire comporte 6 catégories : - objectifs, afin de constater si le juge parlait dans le jugement des objectifs des peines prévus par le code criminel - peine dure, afin de comprendre si la peine encourue était en lien avec un emprisonnement - autre peine, afin de comprendre si la peine encourue était une alternative à la prison - circonstance atténuante, afin d'analyser dans quelle mesure, le juge tenait compte des circonstances atténuantes pour rendre sa décision - circonstance aggravante, afin d'analyser dans quelle proportion, le juge tenait compte des circonstances aggravantes pour rendre sa décision - facteurs personnels, afin de remarquer si le juge prenait en compte les facteurs situationnels et propres à la personne dans le rendu de décision Dans un premier temps, dans chacune des catégories, j'inclue des mots que je sais qui sont en rapport avec les thèmes, notamment grâce à mes précédents cours en criminologie. Dans un second temps, pour compléter ces thèmes, j'ai lu plusieurs extraits de jugements, afin de compléter mon dictionnaire avec des termes juridiques employés pour les infractions de conduite avec facultés affaiblies ayant mené à la mort.
+
+Une fois le dictionnaire établi, j'ai pu analyser mes deux textes, afin de trouver les proportions du juge à avoir recours à ces catégories dans son analyse et sa décision. Les résultats obtenus ont permis de visualiser la proportion des thèmes choisis par le juge pour argumenter sa décision selon le genre de l'accusé.
+
+Enfin, pour une dernière analyse, j'ai enlevé tous les mots qui ne donnaient pas un sens au jugement, afin de voir quels étaient les cinq mots les plus fréquents dans chaque texte. J'ai pu enlever certains mots, sauf certains comme « d'un », « c'est » ou « qu'elles ». par conséquent, j'ai recréé manuellement une base de données, où j'ai rentré les cinq mots les plus fréquents dans le texte, ainsi que le nombre de fois où ils apparaissaient. Puis, je les ai représentés dans un nuage de mots, où la taille d'écriture est proportionnelle à la fréquence du mot dans le texte.
+
+\clearpage
+
+# Présentation des résultats
+
+![Graphique présentant la proportion des thèmes abordés par chacun des juges](Image_TP3.png)
+
+L'analyse du dictionnaire met en évidence certaines distinctions dans les jugements d'un homme ou d'une femme pour un même crime. Avant de présenter ces distinctions, il convient de remarquer que dans chacun des jugements, le juge présente dans les mêmes proportions les objectifs de la détermination d'une peine (homme = 27,11% et femme = 30,61%) et s'attarde sur les circonstances atténuantes dans des mêmes mesures (homme = 13,55% et femme = 14,28%).
+
+Concernant les distinctions évidentes, on peut constater, que le jugement de l'homme se concentre pour plus de 50% (52,54%) sur les circonstances aggravantes quant à la détermination de la peine, alors que pour la femme, le juge les prend en compte, mais sans se concentrer exclusivement sur cela (30,61%).
+
+Ce qui est intéressant à remarquer, est que pour l'accusée féminine, le juge va prendre en compte des facteurs personnels (6,1%), tandis que pour l'accusé masculin, le fait d'avoir ou non des enfants, ou un travail est faiblement pris en compte (1,69%).
+
+Le juge dans la décision Barette évoque plus souvent que son homologue dans le jugement Légaré des alternatives à une peine dure, c'est-à-dire la prison (homme = 1,69% et femme = 12,25%). Cela ne veut pas dire que la peine finale est différente pour les hommes et femmes. Cela veut seulement dire que le débat portant sur la détermination de la peine a l'air plus ouvert pour les femmes que pour les hommes.
+
+![Graphique présentant les 5 mots les plus fréquents dans le jugement Légaré](Mots_homme.png) ![Graphique présentant les 5 mots les plus fréquents dans le jugement Barette](Mots_femme.png)
+
+Enfin, en pointant les mots les plus fréquemment utilisé dans les deux jugements, on peut constater que peine et circonstances sont tous les deux utilisés dans les jugements. Comme on a pu voir précédemment, les circonstances atténuantes et aggravantes font parties des thèmes les plus représentés dans les analyses des juges (homme = 66,09% et femme = 44,89%). Cela n'est donc pas étonnant de retrouver le mot circonstance dans les plus utilisés dans chaque jugement.
+
+\clearpage
+
+# Conclusion
+
+Les conclusions de cette étude réalisée dans le cadre de ce cours ne peuvent être généralisées en raison du nombre limité de textes analysés. De plus, il est essentiel d'améliorer la construction du dictionnaire afin de garantir la prise en compte de toutes les subtilités de chaque thème.
+
+Néanmoins, à la lumière des résultats obtenus, il est possible d'identifier une différence dans l'argumentation du juge lors de la détermination de la peine, selon le genre de l'accusé. En effet, l'examen du jugement rendu pour la femme révèle un débat centré sur un éventail de facteurs, notamment les circonstances aggravantes, atténuantes et les caractéristiques personnelles de l'accusée. En revanche, pour l'homme, le jugement semble principalement fondé sur les circonstances aggravantes et atténuantes du crime commis.
+
+En conclusion, une extension de cette analyse à un plus grand nombre de textes serait essentielle, constructive et intéressante pour observer l'évolution de cette tendance.
+
+\clearpage
+
+# Annexe
+
+```{r}
+
+text1 <- str_squish(paste0(pdf_text("Textes pour TP3/Analyse_R.c.Barette-700-01-180934-211.pdf"), collapse = " "))
+
+Text2 <- str_squish(paste0(pdf_text("Textes pour TP3/Analyse_R.c.Légaré-200-01-245666-213.pdf"), collapse = " "))
+
+```
+
+```{r}
+Data <- data.frame(Date     = c(2023, 2022),
+                   Tribunal = c("Cour du Québec", "Cour du Québec"),
+                   Accusé     = c("femme", "homme"),
+                   Text     = c(text1,Text2)) |>
+mutate(Text = tolower(Text))
+
+```
+
+```{r}
+Dico_Tribunal <- list( Objectifs = c("dissua*", "dénonci*", "réinser*", "réparation d* tort*", "répressi*", "renforcement d* valeur* social*", "conscientis*", "neutralis*", "rétribu*", "réhabilit*"), 
+                      Peine_dure = c("prison", "emprisonne*", "gravité de l'infraction", "degré de culpabilité morale élevée", "milieu carcéral"), 
+                      Autre_peine = c("emprisonnement avec sursis", "amende*", "stage*", "confiscation", "interdiction de conduire", "probation*"), 
+                      Circonstance_atténuante = c("absence d'antécédent* judiciaire*", "circonstance* atténuante*", "plaidoyer de culpabilité", "faible risque de récidive", "excuse*", "implication dans un programme", "abstinence"), 
+                      Circonstance_aggravante = c("circonstance* aggravante*", "alcoolémie", "sens inverse", "drogue*", "séquelle* sérieuse*", "mort*", "blessé* grave*", "alcool", "lésion* corporelle*", "délit de fuite", "irresponsable", "récidive*", "cannabis"), 
+                      Facteurs_personnels = c("enfant* en bas âge", "jeune* enfant*", "travail", "job*", "bénévolat", "entreprise", "buisness")) |>
+  dictionary()
+```
+
+```{r}
+Data1 <- Data |>
+  select(Text, Accusé) |>
+  filter(Accusé %in% c("femme", "homme")) |>
+  group_by(Accusé) |>
+  distinct() 
+```
+
+```{r}
+Data2 <- run_dictionary(data = Data1, text = Text, dictionary = Dico_Tribunal) |>
+  select(-c(doc_id))|>
+  bind_cols(Data1) |>
+  pivot_longer(!c(Text, Accusé), names_to = "categorie", values_to="n") |>
+  ungroup() |> 
+  group_by(Accusé, categorie) |>
+  summarise(n=sum(n)) |>
+  mutate(prop = round(n/sum(n),6)*100,
+         Accusé = case_when(Accusé == "femme" ~ "femme",
+                            Accusé == "homme" ~ "homme"),
+         categorie = case_when(categorie == "objectifs" ~ "Objectifs",
+                               categorie == "peine_dure" ~ "Peine_dure",
+                               categorie == "autre_peine" ~ "Autre_peine",
+                               categorie == "circonstance_atténuante" ~ "Circonstance_atténuante",
+                               categorie == "circonstance_aggravante" ~ "Circonstance_aggravante",
+                               categorie == "facteurs_personnels" ~ "Facteurs_personnels",
+                               T ~ as.character(categorie))) |>
+  filter(categorie %in% c("Objectifs", "Peine_dure", "Autre_peine", "Circonstance_atténuante", "Circonstance_aggravante", "Facteurs_personnels"))
+```
+
+```{r}
+
+ggplot(Data2, aes(x = categorie, y = prop, fill = Accusé)) +
+  geom_col(stat = "identity", position = "dodge") +
+  coord_flip() +
+  ggtitle("Proportion des thèmes abordés par le juge \n selon le genre de l'accusé") +
+  labs(x = "",
+       y = "Proportion (%)",
+       fill = "Accusé") +
+  scale_fill_manual(values = c("femme" = "blue", "homme" = "orange")) +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        plot.title = element_text(size = 14, hjust = 0.5, ),
+        plot.margin = margin(t = 20, r = 50, b = 20, l = 0),
+        axis.text.y = element_text(size = 10),
+        legend.text = element_text(size = 10))  
+
+```
+
+```{r}
+Data %>%
+  select(Accusé, Text) %>%
+  unnest_tokens(words, Text, "words") %>%
+  filter(!words %in% c(stopwords("fr"), "a", "r", "être", "ans", "préc", "plus", "23", "lacasse", "note", "comme", "donc", "peut", "celle", "ci", "précité", "c.cr", "depuis", "qcca", "d'un", "d'une", "c'est", "qu'elle")) %>%
+  filter(!grepl("\\bd'une\\b|c'est", words)) %>%
+  count(Accusé, words) %>%
+  group_by(Accusé) %>%
+  slice_max(n, n = 10)
+```
+
+```{r}
+data_homme <- data.frame(
+  Jugement = "homme",
+  Mot = c("accusé", "peine", "circonstances", "conduite", "cour"),
+  N = c(37, 34, 15, 15, 15))
+
+data_femme <- data.frame(
+  Jugement = "femme",
+  Mot = c("accusée", "peine", "tribunal", "conséquences", "circonstances"),
+  N = c(34, 24, 14, 10, 7))
+```
+
+```{r}
+Mots_homme <- ggplot(data = data_homme, aes(x= reorder(Mot, -N), y= N)) + 
+  geom_col(fill = "orange") +
+  ggtitle("5 mots les plus fréquents dans le jugement Légaré") +
+  labs(x = "Mots",
+       y = "Fréquence") +
+  theme_minimal() +
+  theme(plot.title = element_text(size = 14, hjust = 0.5))
+
+Mots_homme
+
+Mots_femme <- ggplot(data = data_femme, aes(x= reorder(Mot, -N), y=N)) + geom_col() +
+  geom_col(fill = "blue") +
+  ggtitle("5 mots les plus fréquents dans le jugement Barette") +
+  labs(x = "Mots",
+       y = "Fréquence") +
+  theme_minimal() +
+  theme(plot.title = element_text(size = 14, hjust = 0.5))
+
+Mots_femme
+
+
+```
+
+\clearpage
+
+# Bibliographie
+{.unnumbered}
+
