@@ -44,10 +44,10 @@ library(quanteda)
 
 # Introduction et problématique
 
-La pénologie est une discipline qui s'intéresse aux peines données par un juge à une personne ayant commis un crime. Jusqu'à récemment, la recherche ne distinguait pas que l'accusé soit une femme ou un homme, car la majorité des situations étudiées étaient lorsque l'accusé était masculin \cite{vanhamme2007}. Certains auteurs vont mettre en avant qu'il existe une différence dans les peines données en raison du genre ; les femmes recevraient des peines plus clémentes \cite{spohn1998chivalry}. Des auteurs comme Goethals et al., \cite{goethals1995vrouwen}, vont expliquer cela car les femmes auraient moins d'antécédents et commettraient des crimes de gravité moindre.
+La pénologie est une discipline qui s'intéresse aux peines données par un juge à une personne ayant commis un crime. Jusqu'à récemment, la recherche ne distinguait pas que l'accusé soit une femme ou un homme, car la majorité des situations étudiées étaient lorsque l'accusé était masculin @vanhamme2007recherche. Certains auteurs vont mettre en avant qu'il existe une différence dans les peines données en raison du genre ; les femmes recevraient des peines plus clémentes @spohn1998chivalry. Des auteurs comme Goethals et al., @goethals1995vrouwen, vont expliquer cela car les femmes auraient moins d'antécédents et commettraient des crimes de gravité moindre.
 
 
-Ce traitement différentiel peut être expliqué par un comportement paternaliste du juge \cite{pollak1950criminality} ; par le « coût social et familial de la peine » \cite{vanhamme2007recherche} ou encore la faiblesse psychologique des femmes qui doivent être aidées plutôt que punies \cite{gelsthorpe2001critical}.
+Ce traitement différentiel peut être expliqué par un comportement paternaliste du juge @pollak1950criminality ; par le « coût social et familial de la peine » @vanhamme2007recherche ou encore la faiblesse psychologique des femmes qui doivent être aidées plutôt que punies @gelsthorpe2001critical.
 
 Étant donné que la différenciation entre femme et homme est effective dans le champ de la pénologie, il est intéressant de se questionner sur ses conséquences dans les jugements de Cour. Est-ce que femmes et hommes sont jugés de la même façon pour un crime similaire ?
 
@@ -222,5 +222,5 @@ Mots_femme
 \clearpage
 
 # Bibliographie
-{.unnumbered}
+
 
