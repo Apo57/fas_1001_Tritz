@@ -38,7 +38,7 @@ Dans les trois bases de données ESG_date_3, j'ai filtré les valeurs des variab
 
 # Question 3
 
-![Graphique présentant l'évolution des tentatives et des vols des biens du ménage dans une maison, de 1999 à 2019](ESG3.png) 
+![Graphique présentant l'évolution des tentatives et des vols des biens du ménage dans une maison, de 1999 à 2019](ESG3.png)
 
 La base de données de 1999, une fois nettoyée comporte seulement 48 données, comparativement aux deux autres qui comptent 3331 données (2009) et 5340 (2019). À la lumière de cette observation, il est légitime de remettre en question la fiabilité du taux de tentatives/vols de biens du ménage pour l'année 1999. La faiblesse du nombre d'observations retenues peut s'expliquer par l'évolution ultérieure des technologies facilitant la collecte de données, qui n'étaient peut-être pas aussi avancées à l'époque.
 
@@ -144,4 +144,3 @@ nrow(ESG_2019_3_sansNA)
 \clearpage
 
 gg# Bibliographie {.unnumbered}
-

@@ -6,6 +6,7 @@ bibliography: bibliography.bib
 editor: visual
 ---
 
+
 ```{r}
 library(pkgbuild)
 ```
@@ -45,7 +46,6 @@ library(quanteda)
 # Introduction et problématique
 
 La pénologie est une discipline qui s'intéresse aux peines données par un juge à une personne ayant commis un crime. Jusqu'à récemment, la recherche ne distinguait pas que l'accusé soit une femme ou un homme, car la majorité des situations étudiées étaient lorsque l'accusé était masculin @vanhamme2007recherche. Certains auteurs vont mettre en avant qu'il existe une différence dans les peines données en raison du genre ; les femmes recevraient des peines plus clémentes @spohn1998chivalry. Des auteurs comme Goethals et al., @goethals1995vrouwen, vont expliquer cela car les femmes auraient moins d'antécédents et commettraient des crimes de gravité moindre.
-
 
 Ce traitement différentiel peut être expliqué par un comportement paternaliste du juge @pollak1950criminality ; par le « coût social et familial de la peine » @vanhamme2007recherche ou encore la faiblesse psychologique des femmes qui doivent être aidées plutôt que punies @gelsthorpe2001critical.
 
@@ -165,7 +165,7 @@ ggplot(Data2, aes(x = categorie, y = prop, fill = Accusé)) +
   scale_fill_manual(values = c("femme" = "blue", "homme" = "orange")) +
   theme_minimal() +
   theme(legend.position = "bottom",
-        plot.title = element_text(size = 14, hjust = 0.5, ),
+        plot.title = element_text(size = 14, hjust = 0.5),
         plot.margin = margin(t = 20, r = 50, b = 20, l = 0),
         axis.text.y = element_text(size = 10),
         legend.text = element_text(size = 10))  
@@ -222,5 +222,3 @@ Mots_femme
 \clearpage
 
 # Bibliographie
-
-
