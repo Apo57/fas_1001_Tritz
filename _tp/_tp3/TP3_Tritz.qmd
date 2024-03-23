@@ -6,7 +6,6 @@ bibliography: bibliography.bib
 editor: visual
 ---
 
-
 ```{r}
 library(pkgbuild)
 ```
@@ -16,15 +15,15 @@ devtools::install_github("clessn/clessnverse", force = T)
 ```
 
 ```{r, eval=FALSE}
-install.packages("pkgbuild")
+# install.packages("pkgbuild")
 ```
 
 ```{r eval= FALSE}
-install.packages("SnowballC")
-install.packages("pdftools")
-install.packages("wordcloud")
-install.packages("RColorBrewer")
-install.packages("wordcloud2")
+#install.packages("SnowballC")
+#install.packages("pdftools")
+#install.packages("wordcloud")
+#install.packages("RColorBrewer")
+#install.packages("wordcloud2")
 ```
 
 ```{r}
