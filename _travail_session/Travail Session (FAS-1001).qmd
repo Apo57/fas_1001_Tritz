@@ -1,0 +1,827 @@
+---
+title: "Travail de session (FAS-1001)"
+format: pdf
+editor: visual
+lang: fr
+bibliography: bibliography.bib
+author: Apolline Tritz (20206538)
+---
+
+# Introduction et problématique
+
+La pénologie est une discipline qui s'intéresse aux peines données par un juge à une personne ayant commis un crime. Dans une conception classique du droit pénal, le rôle du juge, en contexte de la détermination de la peine, est de punir un accusé de façon équitable selon un objectif visé à l'article 718 du Code criminel [@017250ar]. La peine imposée équitablement par le juge peut être différente si un autre juge avait dû l'imposer. En effet, cela génère un déséquilibre auquel les Cours font face : la disparité de la peine [@017250ar, @al2019perception, @schmit2022sentencing]. Le concept de disparité soulève « des écarts injustifiés entre les sentences » [@017250ar] (p.12) et ce sur des cas similaires, qui pourrait s'expliquer par un manque d'unité, d'accord commun ou de convergence dans la manière de penser et théoriser la peine [@schmit2022sentencing]. Certains auteurs sont d'accords pour dire que cette disparité est due au pouvoir discrétionnaire laissé aux juges [@fogel1975we, @hirsch1976doing, @vanhamme2007recherche]. Le pouvoir discrétionnaire du juge va être influencé par plusieurs facteurs légaux, sociaux ou encore biologiques [@schmit2022sentencing].
+
+Le droit pénal au Canada a évolué à la suite de plusieurs rapports, afin d'encadrer le travail des juges dans la détermination de la peine. Tout d'abord, les législateurs ont indiqué les objectifs et les principes de la peine [@jodouin2009changer]. Ensuite, a été intégré dans le système judiciaire des principes à suivre lorsqu'un juge doit déterminer une peine, comme le principe de proportionnalité, d'individualisation de la peine et l'harmonisation des peines et de modération [@al2019perception]. Le principe d'individualisation de la peine est à contre-courant de l'encadrement du travail des juges, car c'est en prenant en considération différents facteurs situationnels, personnels et entourant l'accusé, que les juges usent de leur pouvoir discrétionnaire pouvant amener dans certains cas à une disparité. Finalement, pour certains crimes, des articles du Code Criminel viennent imposer des peines minimales obligatoires et des peines maximales, ce qui oblige le juge à imposer une peine se situant dans cette fourchette [@al2019perception].
+
+Plusieurs théories en détermination de la peine vont se concentrer sur une catégorie de facteurs, cependant un facteur n'amène pas une causalité directe [@schmit2022sentencing]. La première théorie, « the formal legal theory », va se concentrer sur les facteurs que la loi peut déterminer, afin de choisir une peine. Ces facteurs sont la gravité des faits et les antécédents judiciaires [@al2019perception]. La deuxième théorie, « the substantive political theory », comparativement à la première va mettre l'emphase sur une rationalité extérieure à la loi, notamment les caractéristiques et perceptions de l'accusé et du juge [@al2019perception]. Les caractéristiques relatives aux juges sont l'âge, le sexe, les antécédents familiaux, les antécédents professionnels, l'expérience professionnelle, la charge de travail, la région de travail, etc. [@schmit2022sentencing]. Quant à l'accusé, ses caractéristiques qui peuvent être prises en compte dans la détermination de sa peine sont son passé judiciaire, son sexe, sa position sociale et son origine ethnique [@schmit2022sentencing]. Enfin, « the organizational maintenance theory » permet d'expliquer la disparité des peines entre tribunaux, car elle prône que les peines vont variées dépendamment du contexte politique, social et organisationnel du tribunal [@dixon1989organizational]. En conclusion, il serait intéressant d'intégrer dans une théorie les différents facteurs à prendre en compte et leur influence sur eux-mêmes et sur la peine [@schmit2022sentencing].
+
+Historiquement, plusieurs vagues de recherches ont porté sur les différences des peines entre les hommes et les femmes. La première vague, dans les années 1960 à 1975, les juges étaient plus cléments avec les femmes criminelles [@al2019perception]. La deuxième vague de 1975 à 1980, dévoile que le traitement plus clément pour les femmes accusées, serait en vigueur seulement pour les crimes moins graves [@pope1975sentencing]. En effet, si une femme avait commis un crime considéré d'homme, elles seront punies davantage que les hommes [@al2019perception]. Lors de la troisième couvrant les années de 1980 à 1990, les chercheurs démontrent que lorsque les facteurs légaux (antécédents, gravité) et les circonstances familiales sont pris en compte dans la détermination de la peine, l'effet du genre est négligeable. Cependant, les devis méthodologiques diffèrent entre tous les chercheurs. Certains prennent en compte, les conséquences sur la victime dans les facteurs légaux, alors que d'autres non, ou encore prennent en considération l'ethnie de l'accusé pouvant influencer les décisions. Par conséquent, on ne trouve pas de résultats clairs et généralisables [@schmit2022sentencing]. Johnston et al., ont trouvé que les femmes sont moins susceptibles d'êtres incarcérés que les hommes, tandis que Kruttschnitt et Green, trouve aucune différence entre les sanctions des hommes et celles des femmes [@johnston1987gender, @kruttschnitt1984sex]. Aussi Young, précise que ce ne sont pas toutes les femmes qui bénéficient de cette clémence, car elle a trouvé que les femmes noires reçoivent des peines plus sévères que les femmes blanches [@young1986gender]. La quatrième et dernière vague, débutant en 1990, démontre que les femmes sont encore privilégiées, au niveau des peines, par rapport aux hommes [@bontrager2013gender] et qu'elles auront plus de chances de ne pas être incarcérées ou d'avoir des peines plus courtes, notamment pour les crimes tels que l'homicide, l'agression sexuelle, la possession, fabrication et vente de stupéfiant, etc. [@holland2021gender]. Contrairement aux recherches de la troisième vague, Steffensmeier et al, en 1998 ou encore Spohn et Brennan, en 2011, trouvent que les femmes noires comme les femmes blanches bénéficient de la même clémence [@steffensmeier1998interaction, @spohn2011joint]. D'autres études révèlent que les femmes ayant un emploi et une éducation supérieures n'auront pas la clémence des juges, contrairement aux femmes sans emploi [@crew1991sex, @freiburger2011impact]. Concernant les enfants, des auteurs ont trouvé qu'une femme avec des enfants est souvent moins incarcérée qu'un homme avec enfants [@koons2002effect]. Finalement, on remarque que ce n'est pas seulement un facteur unique, comme le genre, qui va influencer la décision sur la peine, mais bien l'influence de plusieurs.
+
+Il existe une multitude d'études se concentrant sur le potentiel effet du genre de l'accusé sur la détermination de la peine. Actuellement la réponse à la question si le genre de l'accusé joue un rôle dans la détermination de la peine est encore sujette à un certain débat. Même si la tendance générale se tourne vers l'hypothèse que le genre seul n'est pas un indicateur qui va influencer la détermination de la peine de façon significative. Cependant, peu d'étude porte sur le genre du juge en relation avec l'imposition d'une sentence. Celles existantes vont être principalement descriptives, en mettant de l'avant plusieurs facteurs potentiels pouvant être pris en considération, mais peu font des analyses quant à savoir l'impact réel de ces derniers. C'est pourquoi mon étude va se concentrer sur l'effet potentiel du genre des juges sur l'imposition d'une peine en contexte d'infraction relative au trafic de drogues.
+
+Cette étude va répondre à une question générale : est-ce que le genre du juge influence la détermination de la peine? Pour ce faire, plusieurs sous-questions vont être posées et les réponses seront obtenues grâce à plusieurs analyses : 
+- Est-ce que le genre du juge influence la justification d'une peine ? 
+- Est-ce que le genre du juge influence la sévérité d'une peine ? 
+- Est-ce que le genre du juge influence la gravité d'une peine ? 
+- Quels autres facteurs représentés dans mes variables peuvent avoir une influence sur l'imposition d'une peine de prison ?
+
+Selon moi, je retouverai des résultats similaires aux études sur le genre de l'accusé, c'est-à-dire que seul le genre du juge n'aura pas une influence statistiquement significative sur l'imposition d'une certaine peine.
+
+Après avoir présenté la méthodologie de cette étude, comprenant le nettoyage de mes données et les choix des méthodes d'analyses, les résultats seront présentés, afin de pouvoir en discuter et répondre aux plusieurs questions posées.
+
+# Méthodologie
+
+Mon étude se basant principalement sur le genre et les possibles disparités qu'il peut provoquer au niveau des peines, je m'intéresse à la deuxième théorie présentée ci-haut, c'est-à-dire « the substantive political theory ». Cependant, un attribut pouvant avoir beaucoup d'influence sur un juge peut avoir un impact minime chez un autre magistrat. Par conséquent, on peut dire que cette variable exerce une influence sur la décision, mais il est plus dur d'expliquer pourquoi. Étant donné que plusieurs auteurs ont fait la remarque et que je suis d'accord avec cela, je vais rajouter d'autres variables à l'analyse, comme la présence d'antécédents judiciaires, qui est un facteur de « the formal legal theory » ; la date du jugement ; les circonstances aggravantes et atténuantes ; la situation professionnelle et la situation familiale entre autres.
+
+## Données
+
+La base de données utilisée pour cette étude a été créé par moi-même en assemblant plusieurs jugements provenant du site internet « SOQUIJ », qui est la société québécoise d'information juridique. On peut trouver sur cette page toutes les décisions de justice, que ce soit pénales, civiles, etc., qui ont été numérisées. J'ai dû créer la base de données, car je n'arrivais pas à trouver une base de données sur un site internet qui me permettait de couvrir mon sujet d'étude.
+
+La base de données comporte des décisions de la chambre criminelle et pénale de la Cour du Québec de 2002 à 2023, comprenant un seul accusé, qu'il soit masculin ou féminin, pour une infraction relative à la drogue (vente, possession, trafic). Les décisions de justice ont été remises en page par mes soins. En effet, j'ai sélectionné seulement les parties « Analyse » ou « Détermination de la peine », car c'est sur ces points-là que le juge exerce une réflexion menant à une détermination de la peine tout en réfléchissant sur plusieurs facteurs. Dans cette partie, j'ai aussi supprimé toutes les notes de fin de page et les parties où la décision faisait juste citer d'autre arrêt, car je voulais seulement capter la réflexion du juge de l'affaire.
+
+Les variables de la base de données sont au nombre de 8 :
+
+-   text = les textes importés en PDF, sur lesquels va porter l'analyse. Chaque texte est nommé selon ce format : text_A1. La lettre suivant le tiret correspond à la période du jugement (A pour 2000, B pour 2010 et C pour 2020) et le chiffre à la suite de la lettre permet juste de les ordonner entre eux.
+
+-   date = la date du jugement. 
+
+-   Période = j'ai divisé tous les jugements en trois périodes, c'est-à-dire 2000, 2010 et 2020. Cela me permettra de voir s'il y a une évolution dans la réflexion des juges.
+
+-   accusé = cette variable est dichotomisée en soit homme ou soit femme, en fonction du genre de l'accusé.
+
+-   jugeT = cette variable est dichotomisée en soit homme ou soit femme, en fonction du genre du juge.
+
+-   peine_prison = il s'agit du nombre en mois de prison que le juge a donné pour l'accusé.
+
+-   peine_prison_collectivité = il s'agit du nombre de mois de prison que le juge a donné à l'accusé, mais cette sentence doit se purger dans la société.
+
+-   antécédents = la valeur 1 correspond au fait que l'accusé a quelconques antécédents judiciaires, alors que la valeur 0 signifie qu'il n'en n'a pas. Je prends en compte tous les antécédents possibles et non seulement les antécédents en relation avec le domaine de la drogue. Seront pris en compte, seulement les antécédents à l'âge adulte, car d'une part les jugements ne relatent pas toujours les antécédents judiciaires juvéniles et d'autre part, un adolescent n'a pas terminé son développement cognitif comparé à un adulte.
+
+![Graphique présentant le nombre de jugements en fonction du genre du juge sur chacune des périodes à l'étude](juge2.0.png)
+
+Ce graphique montre la répartition des données en fonction du genre du juge. Concernant les jugements de la période année 2000, seul un jugement a été produit par une femme contre six par un homme. En 2010, huit jugements ont été rendus par une femme et douze par un homme. Enfin, pour la période de 2020, dix ont été rédigés par une femme et neuf par un homme.
+
+![Graphique présentant le nombre de jugements en fonction du genre de l'accusé sur chacune des périodes à l'étude](accusé2.0.png)
+
+Ce deuxième graphique permet de constater que la majorité des jugements ont été rendus à l'encontre d'un accusé de genre masculin. En effet, pour les périodes de 2000, 2010 et 2020, on retrouve cinq, dix-sept et dix-sept jugements lorsque l'accusé est un homme. Finalement, pour la totalité des trois périodes, il y a sept jugements rendus à l'encontre d'une femme, ce qui reste assez faible. Ce graphique est présent, même si je m'intéresse plus particulièrement au genre du juge, car j'effectuerai une régression logitistique avec l'ensemble de mes variables, dont le genre de l'accusé.
+
+## Procédure
+
+### Analyse textuelle
+
+Tout d'abord dans le but de créer un dictionnaire couvrant le plus possible la réalité du sujet de la détermination de la peine, j'ai fait une procédure d'embedding sur les textes de ma base de données, qui m'a permis de sortir les 10 mots les plus fréquents se retrouvant autour des mots « aggravantes », « atténuantes », « objectif », « travail » que je considérais comme pouvant faire partie des catégories de mon dictionnaire. Par la suite, afin de le rendre plus consistant, j'ai ajouté d'autres catégories et j'ai rajouté dans chaque catégorie des mots que j'ai retrouvé dans la littérature, dans certains jugements ainsi que certains synonymes, afin d'être sûre que mon analyse textuelle couvrirait la majorité des thèmes souhaités.
+
+Au final, le dictionnaire comporte 6 grands thèmes : 
+
+- Objectifs_peine = cette variable permet de comprendre à quel point le juge se réfère aux lois, donc à la première théorie : the formal legal theory/ Pour rappel le travail du juge est encadré par la loi, notamment dans les objectifs de la peine, afin d'apporter une certaine vision commune de la peine, afin d'éviter une certaine disparité entre les peines.
+
+- Situation_pro = cette variable permet de voir si le juge prend en considération que l'accusé a un travail et plus généralement une vie sociale proactive.
+
+- Aucune_situation_pro = cette variable permet de voir si le juge prend en considération que l'accusé n'a pas de travail, ce qui peut être représentatif de son rapport avec la société et de son cheminement vers un objectif de réinsertion.
+
+- Situation_fam = cette variable permet de voir si le juge prend en compte la situation familiale de l'accusé dans sa réflexion pour déterminer une peine.
+
+- Circ_aggravantes = cette variable permet de comprendre dans quelle proportion les circonstances aggravantes d'une infraction sont prises en compte par le juge au moment de la détermination de la peine.
+
+- Circ_atténuantes = cette variable permet de comprendre si les circonstances atténuantes exercent une influence sur le prononcé d'une peine.
+
+Une fois mon dictionnaire finalisé, je compte faire une analyse de dictionnaire, afin de voir quels thèmes sont les plus employés par le juge dans la détermination d'une peine. Cela permet d'évaluer si le genre du juge influence sa façon de justifier une peine donnée
+
+### Test de Wilcoxon-Mann-Whitney
+
+Le test de Wilcoxon-Mann-Whitney est un test statistique non-paramétrique qui se base sur les rangs de chaque valeur. J'ai choisi ce dernier, car mes données ne suivaient pas une distribution normale (p-value de 0.05 pour la distribution des juges féminines et p-value de 0.0003 pour la distribution des juges masculins au test de shapirov) et je n'avais pas assez d'observations dans chacun des groupes (juge femme : N = 9 et juge homme : N= 18) pour violer le postulat de normalté présent pour un test de T.
+
+Pour ce test, les variables qui me sont utiles sont le genre du juge (jugeT) et la peine de prison (peine_prison).
+
+Ce test va permettre d'évaluer l'influence du genre du juge dans la sévérité d'une peine donnée, c'est-à-dire le nombre de mois à purger pour un crime de nature similaire.
+
+### Test de Khi carré
+
+Le test de Khi carré est un test statistique non-paramétrique permettant d'évaluer le niveau de relation entre deux variables catégorielles.
+
+Pour ce test, les variables qui me sont utiles sont le genre du juge (jugeT), la peine de prion (peine_prison) et la perine en collectivité (peine_prison_collectivité). Afin de rendre catégorielle ma variable peine, j'ai dichotomisé cette dernière en ayant comme observation 1 s'il s'agissait d'une peine de prison et 0 s'il s'agissait d'une peine à purger en collectivité.
+
+Ce test va permettre d'évaluer l'influence du genre du juge dans la gravité de la peine donnée, c'est-à-dire le type de peine donné pour un crime de nature similaire.
+
+### Régression logistique
+
+La régression logistique est une méthode statistique utilisée pour estimer la probabilité qu'un événement se produise par rapport à son non-occurrence, en fonction de plusieurs variables explicatives et lorsque la variable dépendante du modèle est binaire.
+
+Pour ce test, les variables qui me sont utiles sont le genre du juge, le genre de l'accusé, les antécédents et la variable peine, avec pour valeur 1 une peine en prison et pour valeur 0 une peine en collectivité.
+
+Ce test va permettre d'évaluer la ou les variable(s) explicative(s) qui a/ont le plus d'influence dans mon modèle et qui est/sont la ou les plus probable(s) d'influencer l'imposition d'une peine de prison.
+
+# Présentation des résultats
+
+## Analyse textuelle : emploi du dictionnaire
+
+Cette analyse présente les proportions en pourcentage, dans l'ensemble des jugements rendus par un juge homme ou un juge femme, des thèmes prédéfinis.
+
+![Graphique présentant la proportion des thèmes abordés par le juge selon son genre](analysetextuelle2.0.png)
+
+Pour chaque thème, les résultats sont similaires entre les juges masculins et féminins. La plus grande différence entre les juges est pour les circonstances aggravantes, les juges hommes justifient la peine pour 50.62%, alors que les femmes justifient pour 49.33%. Par conséquent, il n'y a pas de différence significative à présenter selon cette analyse. Le genre du juge n'influence pas la justification d'une peine, dans cette étude.
+
+## Test de Wilcoxon-Mann-Whitney
+
+Cette analyse me permet de regarder si les médianes de chaque groupe sont différentes de manière statistiquement significative, selon le genre du juge et ce même si mes distributions de chaque groupe ne sont pas normales.
+
+![Graphique présentant la distribution des peines de prison données selon le genre du juge](Violon.png) 
+
+Comme nous pouvons le voir sur les diagrammes en forme de violons avec la position des médianes, le test de wilcoxon-mann-whitney confirme l'absence de différence significative dans la distribution des peines de prison selon le genre du juge (W = 92, p-value = 0.59). Le nombre de mois donné à passer en prison ne diffère pas de manière significative entre les juges hommes ou les juges femmes.
+
+## Test de khi carré
+
+Cette analyse statistique permet de déterminer s'il existe une relation entre le genre du juge et le type de peine donné, deux variables catégorielles.
+
+![Tableau de contingence représentant les types de peine selon le genre du juge](contingence.png) 
+
+Le test de khi carré met en évidence, dans le cadre de cette étude, une absence de relation significative entre le genre du juge et le type de peine données (X\^2 = 1.0096, p-value = 0.315). Les différences constatées dans le tableau de contingence sont probablement dû au hasard plutôt qu'à une relation entre les deux variables.
+
+## Régression logistique
+
+Cette analyse permet de déterminer l'influence de chacune des variables dans un modèle composé de plusieurs de ces dernières, dans l'imposition d'une peine en prison.
+
+![Représentation visuelle des prédictions d\'obtenir une peine de prison selon plusieurs combinaisons de variables](logistique.png) 
+Cette analyse permet d'obtenir des coefficients, mais étant difficilement interprétables, j'ai également présenté les prédictions de mon modèle. Ces prédictions sont représentés visuellement dans la figue ci-haut, où à chaque ligne, seule une variable diffère. Visuellement, on voit une plus grande différence entre les barres du graphique seulement pour quand on fait varier la variable antécédent. Les résultats de la régression logistique viennent confirmer ce qui a été vu, car ils mettent en évidence que la variable antécédent a une influence sur l'imposition d'une peine de prison (p-value = 0.0073), tandis que le genre du juge (p-value = 0.1806) et le genre de l'accusé (p-value = 0.1384) n'ont aucune influence sur le type de peine donné.
+
+# Conclusion et limites de mon étude
+
+Les résultats de cette étude apportent des éclairages importants sur l'influence du genre du juge dans la détermination des peines (justification, sévérité de la peine de prison, et gravité des peines), mettant en évidence une absence d'effet significatif du genre du juge sur ce processus.
+
+Les analyses statistiques, notamment le test de Wilcoxon-Mann-Whitney, le test du chi-carré et la régression logistique, ont tous confirmé l'absence de différence significative dans la détermination de la peine entre les juges hommes et femmes. De plus, la régression logistique a mis en évidence que la variable antécédent était le seul facteur ayant une influence significative sur l'imposition des peines de prison, tandis que le genre du juge et le genre de l'accusé n'avaient aucun impact discernable.
+
+Ces résultats sont cohérents avec les tendances générales observées dans la littérature sur la justice pénale, qui mettent en lumière l'importance d'autres variables.
+
+Cependant, il convient de noter certaines limites inhérentes à cette recherche.
+
+Tout d'abord, les données analysées ne représentent pas nécessairement une répartition équilibrée des jugements en fonction des critères prédéfinis, ce qui peut introduire des déséquilibres dans les proportions de jugements selon chaque genre. De plus, les données se limitent aux jugements de la chambre criminelle et pénale du Québec, limitant ainsi la généralisation des résultats à d'autres contextes juridiques.
+
+En outre, plusieurs facteurs sociaux et biologiques abordés dans la revue de littérature n'ont pas pu être inclus dans cette étude en raison de contraintes de données. Une analyse plus approfondie aurait nécessité l'inclusion d'autres sources de données, telles que des entretiens avec les juges pour comprendre leur expérience professionnelle, leurs antécédents familiaux ou professionnels, etc.
+
+Enfin, la non-sélection aléatoire des jugements préalablement présélectionnés peut introduire un certain cherry-picking, malgré le respect des critères établis à l'avance lors de la sélection des jugements. Pour pallier ces limites et améliorer la généralisation des résultats, une sélection aléatoire des jugements préalablement présélectionnés ou l'inclusion de l'ensemble des jugements répondant aux critères pourraient être envisagées dans de futures analyses.
+
+Malgré ces limites, cette étude contribue de manière significative à la compréhension des facteurs influençant la justice pénale, en soulignant le rôle prépondérant d'autres variables que le genre du juge dans la détermination des peines de prison. De plus, elle apporte une contribution relative (cf. paragraphe sur les limites) à la littérature, car elle vient combler un manque d'études se concentrant sur le genre du juge dans la détermination de la peine, se basant sur des résultats quantitatifs.
+
+Ces résultats ouvrent la voie à des recherches plus approfondies et diversifiées pour mieux appréhender les dynamiques complexes de la prise de décision judiciaire, en fonction de diverses facteurs.
+
+\clearpage
+
+# Annexe code
+
+```{r}
+library(pkgbuild)
+library(pdftools)
+library(tidyverse)
+library(SnowballC)
+library(tidytext)
+library(clessnverse)
+library(ggplot2)
+library(wordcloud)
+library(RColorBrewer)
+library(wordcloud2)
+library(dplyr)
+library(quanteda)
+library(tinytex)
+library(word2vec)
+# install.packages("text2vec")
+library(text2vec)
+library(broom)
+library(car)
+#install.packages("vcd")
+library(grid)
+library(vcd)
+#install.packages("marginaleffects")
+library(marginaleffects)
+library(patchwork)
+```
+
+```{r}
+devtools::install_github("clessn/clessnverse", force = T)
+```
+
+```{r}
+# Importation des jugements provenant de SOQUIJ, retravaillés
+
+text_A1 <- str_squish(paste0(pdf_text("Décisions 2001-2004/AUDET(h)_juge(h).pdf"), collapse = " "))
+
+text_A2 <- str_squish(paste0(pdf_text("Décisions 2001-2004/GIRARD(f)_juge(h).pdf"), collapse = " "))
+
+text_A3 <- str_squish(paste0(pdf_text("Décisions 2001-2004/DUFOUR(h)_juge(h).pdf"), collapse = " ")) 
+
+text_A4 <- str_squish(paste0(pdf_text("Décisions 2001-2004/LAROUCHE(f)_juge(h).pdf"), collapse = " ")) 
+
+text_A5 <- str_squish(paste0(pdf_text("Décisions 2001-2004/LAVIGNE(h)_juge(h).pdf"), collapse = " ")) 
+ 
+text_A6 <- str_squish(paste0(pdf_text("Décisions 2001-2004/PATOINE(h)_juge(h).pdf"), collapse = " ")) 
+
+text_A7 <- str_squish(paste0(pdf_text("Décisions 2001-2004/ROY (h)_Juge(f).pdf"), collapse = " ")) 
+
+text_B1 <- str_squish(paste0(pdf_text("Décisions 2010-2013/BEAUDIN(h)-juge(h)2011.pdf"), collapse = " ")) 
+
+text_B2 <- str_squish(paste0(pdf_text("Décisions 2010-2013/BERNIER(h)-juge(h)2011.pdf"), collapse = " ")) 
+
+text_B3 <- str_squish(paste0(pdf_text("Décisions 2010-2013/BILODEAU(h)-juge(h)2012.pdf"), collapse = " ")) 
+  
+text_B4 <- str_squish(paste0(pdf_text("Décisions 2010-2013/BOUDREAULT(h)-juge(f)2010.pdf"), collapse = " "))
+
+text_B5 <- str_squish(paste0(pdf_text("Décisions 2010-2013/BOULIANE(h)-juge(h)2011.pdf"), collapse = " "))
+
+text_B6 <- str_squish(paste0(pdf_text("Décisions 2010-2013/CIMON(h)-juge(h)2011.pdf"), collapse = " "))
+
+text_B7 <- str_squish(paste0(pdf_text("Décisions 2010-2013/CORTEZ(h)-juge(h)2010.pdf"), collapse = " "))
+
+text_B8 <- str_squish(paste0(pdf_text("Décisions 2010-2013/DOSTIE5h)-juge(h)2012.pdf"), collapse = " "))
+
+text_B9 <- str_squish(paste0(pdf_text("Décisions 2010-2013/FL(f)-juge(f)2011.pdf"), collapse = " "))
+
+text_B10 <- str_squish(paste0(pdf_text("Décisions 2010-2013/FORTIN (h) - juge (F) 2013.pdf"), collapse = " "))
+
+text_B11 <- str_squish(paste0(pdf_text("Décisions 2010-2013/FRAPPIER(h)-juge(h)2010.pdf"), collapse = " "))
+
+text_B12 <- str_squish(paste0(pdf_text("Décisions 2010-2013/GAGNON(h)-juge(h)-2013.pdf"), collapse = " "))
+
+text_B13 <- str_squish(paste0(pdf_text("Décisions 2010-2013/GINGRAS(h)-juge(h)2010.pdf"), collapse = " "))
+
+text_B14 <- str_squish(paste0(pdf_text("Décisions 2010-2013/LANTHIER(h)-juge(f)2011.pdf"), collapse = " "))
+
+text_B15 <- str_squish(paste0(pdf_text("Décisions 2010-2013/LAVOIE(h--juge(f)2013.pdf"), collapse = " "))
+
+text_B16 <- str_squish(paste0(pdf_text("Décisions 2010-2013/LEONARD(f)-juge(h)2012.pdf"), collapse = " "))
+
+text_B17 <- str_squish(paste0(pdf_text("Décisions 2010-2013/MERCIER(h)-juge(f)2011.pdf"), collapse = " "))
+
+text_B18 <- str_squish(paste0(pdf_text("Décisions 2010-2013/ST(f)-juge(h)2011.pdf"), collapse = " "))
+
+text_B19 <- str_squish(paste0(pdf_text("Décisions 2010-2013/TETU(h)-juge(f)2012.pdf"), collapse = " "))
+
+text_B20 <- str_squish(paste0(pdf_text("Décisions 2010-2013/TREMBLAY(h)-juge(f)2011.pdf"), collapse = " "))
+
+text_C1 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /BABIN(h)-juge(f)2020.pdf"), collapse = " "))
+  
+text_C2 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /BOISJOLY(h)-juge(h)2022.pdf"), collapse = " "))
+  
+text_C3 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /CARDIN(h)-juge(f)2020.pdf"), collapse = " "))
+  
+text_C4 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /DUBOIS(h)-juge(f)2022.pdf"), collapse = " "))
+  
+text_C5 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /FIORITA(h)-juge(h)2020.pdf"), collapse = " "))
+  
+text_C6 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /FORTIER(f)-juge(f)2022.pdf"), collapse = " "))
+  
+text_C7 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /MARTINET(h)-juge(h)2021.pdf"), collapse = " "))
+  
+text_C8 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /Méthot(h)-juge(f)2023.pdf"), collapse = " "))
+  
+text_C9 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /NOLET(h)-juge(f)2023.pdf"), collapse = " "))
+  
+text_C10 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /OUELLETTE(h)-juge(h)2021.pdf"), collapse = " "))
+  
+text_C11 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /PARE(h)-juge(f)2021.pdf"), collapse = " "))
+  
+text_C12 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /RACICOT(h)-juge(f)2022.pdf"), collapse = " "))
+  
+text_C13 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /SAINVILLUS(h)-juge(h)2021.pdf"), collapse = " "))
+  
+text_C14 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /SIMARD(h)-juge(h)2020.pdf"), collapse = " "))
+  
+text_C15 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /SIMON(h)-juge(h)2023.pdf"), collapse = " "))
+  
+text_C16 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /STJEAN(h)-juge(f)2022.pdf"), collapse = " "))
+  
+text_C17 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /TRUDEL(f)-juge(h)2021.pdf"), collapse = " "))
+  
+text_C18 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /VEILLEUX(h)-juge(h)2023.pdf"), collapse = " "))
+  
+text_C19 <- str_squish(paste0(pdf_text("Décisions 2020-2023 /VOS(h)-juge(f)2021.pdf"), collapse = " "))
+  
+```
+
+```{r}
+# Création de ma base de données
+
+Data_jug <- data_frame(date     = c(2003, 2004, 2003, 2003, 2003, 2003, 2002, 2011, 2011, 2012, 2010, 2011, 2011, 2010, 2012, 2011, 2013, 2010, 2013, 2010, 2011, 2013, 2012, 2011, 2011, 2012, 2011, 2020, 2022, 2020, 2022, 2020, 2022, 2021, 2023, 2023, 2021, 2021, 2022, 2021, 2020, 2023, 2022, 2021, 2023, 2021),
+                     période = c(2000, 2000, 2000, 2000, 2000, 2000, 2000, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020, 2020),
+                   accusé     = c("Masculin", "Féminin", "Masculin", "Féminin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Féminin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Féminin", "Masculin", "Féminin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Féminin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Féminin", "Masculin", "Masculin"),
+                   jugeT = c("Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Masculin", "Féminin", "Masculin", "Masculin", "Masculin", "Féminin", "Masculin", "Masculin", "Masculin", "Masculin", "Féminin", "Féminin", "Masculin", "Masculin", "Masculin", "Féminin", "Féminin", "Masculin", "Féminin", "Masculin", "Féminin", "Féminin", "Féminin", "Masculin", "Féminin", "Féminin", "Masculin", "Féminin", "Masculin", "Féminin", "Féminin", "Masculin", "Féminin", "Féminin", "Masculin", "Masculin", "Masculin", "Féminin", "Masculin", "Masculin", "Féminin"),
+                   peine_prison = c(0, 24, 15, 0, 19, 24, 18, 36, 14, 0, 24, 15, 23, 20, 0, 0, 0, 27, 0, 24, 0, 18, 0, 0, 0, 0, 48, 48, 30, 70, 0, 20, 0, 24, 0, 18, 12, 30, 0, 72, 0, 48, 15, 18, 0, 0),
+                   peine_prison_collectivité = c(18, 0, 0, 24, 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 24, 16, 6, 0, 18, 0, 24, 0, 20, 24, 24, 23, 0, 0, 0, 0, 27, 0, 0, 0, 24, 0, 0, 0, 3, 0, 1, 0, 0, 0, 24, 3),
+                   antécédents = c(1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1),
+                   text     = c(text_A1, text_A2, text_A3, text_A4, text_A5, text_A6, text_A7, text_B1, text_B2, text_B3, text_B4, text_B5, text_B6, text_B7, text_B8, text_B9, text_B10, text_B11, text_B12, text_B13, text_B14, text_B15, text_B16, text_B17, text_B18, text_B19, text_B20, text_C1, text_C2, text_C3, text_C4, text_C5, text_C6, text_C7, text_C8, text_C9, text_C10, text_C11, text_C12, text_C13, text_C14, text_C15, text_C16, text_C17, text_C18, text_C19))  |> 
+  mutate(text = tolower(text))
+
+```
+
+```{r}
+# Visualisation de ma base de données selon les genres des juges et des accusés
+
+G <- ggplot(data = Data_jug, aes(x = période, fill= jugeT)) +
+  geom_bar(position = "dodge") +
+  ggtitle("Représentation du nombre de jugement en fonction \n du genre du juge pour chacune des périodes") +
+  labs(x = "Périodes des jugements",
+       y = "Nombre",
+       fill = "Genre du juge") +
+  scale_y_continuous(breaks = seq(0, 12, by = 2)) +
+  scale_fill_manual(values = c("Féminin" = "#87CEEB", "Masculin" = "#FFDAB9")) +
+  theme_minimal() +
+  theme(plot.title = element_text(size = 12, hjust = 0.5))
+G
+
+G1 <- ggplot(data = Data_jug, aes(x = période, fill = accusé)) +
+  geom_bar(position = "dodge") +
+  ggtitle("Représentation du nombre de jugement en fonction \n du genre de l'accusé pour chacune des périodes") +
+  labs(x = "Périodes des jugements",
+       y = "Nombre",
+       fill = "Genre de l'accusé") +
+  scale_y_continuous(breaks = seq(0, 16, by = 2)) +
+  scale_fill_manual(values = c("Féminin" = "#87CEEB", "Masculin" = "#FFDAB9")) +
+  theme_minimal() +
+  theme(plot.title = element_text(size = 12, hjust = 0.5))
+G1
+
+```
+
+```{r}
+# Procédure d'embedding pour la création de mon dictionnaire
+
+stopword_fr <- sprintf("\\b(%s)\\b", paste0(stopwords("fr"), collapse = "|"))
+
+embedding_list <- Data_jug %>% 
+  mutate(text = tolower(text),
+         text = str_squish(str_remove_all(text, stopword_fr))) %>% 
+  corpus() |> 
+    corpus_reshape(to = "sentences") |> 
+    tokens(remove_punct = T, remove_symbols = T) |> 
+    as.list()
+
+embedding <- word2vec(embedding_list, dim = 25, iter = 20, min_count = 3, type = "skip-gram", lr = 0.05) # Prepare les embeddings
+
+predict(embedding, c("aggravantes", "atténuantes", "objectif", "situation", "peine", "travail", "principe", "enfants"), type = "nearest", top_n = 20) # Prédiction des mots les plus liés au suivant
+
+```
+
+```{r}
+# Création de mon dictionnaire
+
+Dico_Tribunal <- list( objectifs_peine = c("dissua*", "dénonc*", "réinser*", "réparation d* tort*", "répressi*", "renforcement d* valeur* social*", "conscientis*", "neutralis*", "rétribu*", "réhabilit*", "prévention*", "isoler"), 
+                      circ_attenuantes = c("absence d'antécédent* judiciaire*", "circonstance* atténuante*", "plaidoyer de culpabilité", "plaidoyer", "faible risque de récidive", "excuse*", "implication dans un programme", "abstinence", "rapport présentenciel positif", "collaboration", "s'investir", "investissement", "acte isolé", "thérapie", "encadrement familial", "faible scolarité", "regret*", "toxicomane", "toxicomanie"), 
+                      circ_aggravantes = c("circonstance* aggravante*", "drogue*",  "mort*", "blessé* grave*", "alcool", "irresponsable", "récidive*", "cannabis", "cocaïne", "quantité", "antécédents", "peine* sévère*", "complot", "défavorable", "appât du gain", "gravité objective", "conscient des effets", "nature", "pas investi", "non-respect des ordonnances", "risque* de récidive", "circonstances de l'infraction", "drogue dure", "incarcération à perpétuité"), 
+                      situation_fam = c("enfants", "jeune* enfant*", "proche* aidant*"),
+                      situation_pro = c("travail", "job*", "bénévolat", "buisness", "entreprise", "emploi stable"),
+                      aucune_situation_pro = c("aide sociale", "social", "sociale", "sociales")) |>
+  dictionary()
+```
+
+```{r}
+Data1 <- Data_jug |>
+  select(text, jugeT) |>
+  group_by(jugeT) |>
+  distinct() 
+```
+
+```{r}
+# Analyse du dictionnaire
+
+Data2 <- run_dictionary(data = Data1, text = text, dictionary = Dico_Tribunal) |>
+  select(-c(doc_id))|>
+  bind_cols(Data1) |>
+  pivot_longer(!c(text, jugeT), names_to = "categorie", values_to="n") |>
+  ungroup() |> 
+  group_by(jugeT, categorie) |>
+  summarise(n=sum(n)) |>
+  mutate(prop = round(n/sum(n),6)*100,
+         juge = case_when(jugeT == "Féminin" ~ "féminin",
+                            jugeT == "Masculin" ~ "masculin"),
+         categorie = case_when(categorie == "objectifs_peine" ~ "Objectifs",
+                               categorie == "situation_pro" ~ "Situation_professionnelle",
+                               categorie == "aucune_situation_pro" ~ "Aucune_situation_professionnelle",
+                               categorie == "circ_attenuantes" ~ "Circonstances_atténuantes",
+                               categorie == "circ_aggravantes" ~ "Circonstances_aggravantes",
+                               categorie == "situation_fam" ~ "Situation_familliale",
+                               T ~ as.character(categorie))) |>
+  filter(categorie %in% c("Objectifs", "Situation_professionnelle", "Aucune_situation_professionnelle", "Circonstances_atténuantes", "Circonstances_aggravantes", "Situation_familliale")) 
+```
+
+```{r}
+# Visualisation de l'analyse du dictionnaire
+
+ggplot(Data2, aes(x = categorie, y = prop, fill = juge)) +
+  geom_col(stat = "identity", position = "dodge") +
+  coord_flip() +
+  ggtitle("Proportion des thèmes abordés par le juge \n selon le genre du juge") +
+  labs(x = "",
+       y = "Proportion (%)",
+       fill = "Juge") +
+  scale_fill_manual(values = c("féminin" = "#87CEEB", "masculin" = "#FFDAB9")) +
+  theme_minimal() + 
+  theme(legend.position = "bottom",
+        plot.title = element_text(size = 14, hjust = 0.5),
+        plot.margin = margin(t = 20, r = 50, b = 20, l = 0),
+        axis.text.y = element_text(size = 10),
+        legend.text = element_text(size = 10))  
+```
+
+```{r}
+# Sélection de mes données
+
+data_WMW <- Data_jug %>%
+  filter(peine_prison != 0) %>%
+  select(jugeT, peine_prison)
+
+# Vérification de la normalité des données 
+shapiro_test <- data_WMW %>%
+  group_by(jugeT) %>%
+  summarise(shapiro_pvalue = shapiro.test(peine_prison)$p.value)
+
+print(shapiro_test)
+
+# Visualisation de la distribution
+A <- ggplot(data_WMW, aes(x= jugeT, y= peine_prison, fill = jugeT)) + 
+  geom_violin(draw_quantiles = c(0.5)) + 
+  geom_jitter(width = 0.06, height = 0, fill = "black") +
+  labs(title = "Diagramme en forme de violon représentant la distribution des peines de prison \n selon le genre du juge",
+       subtitle = "Les points correspondent aux données",
+       x = "Genre du juge",
+       y = "Peine de prison (en mois)",
+       fill = "") +
+  scale_fill_manual(values = c("#87CEEB", "#FFDAB9"), guide = FALSE) +
+  theme_minimal() 
+A
+
+```
+
+```{r}
+# Test de Wilcoxon-Mann-Whitney
+
+wilcox_result <- wilcox.test(peine_prison ~ jugeT, data = data_WMW, alternative = "two.sided", conf.level = 0.95, exact=FALSE, conf.int = TRUE)
+print(wilcox_result)
+```
+
+```{r}
+# Manipulation des données pour le khi carré
+data_dispa <- Data_jug %>%
+  select(jugeT, peine_prison, peine_prison_collectivité)
+
+data_dispa1 <- data_dispa %>%
+  mutate(peine = ifelse(peine_prison > 0, 1, 0))
+```
+
+```{r}
+# Sélection des variables nécessaires
+data_analyse <- data_dispa1 %>%
+  select(jugeT, peine)
+
+# Test de chi-squared pour l'indépendance entre 'jugeT' et 'peine'
+Khi_squared_test <- chisq.test(data_analyse$jugeT, data_analyse$peine)
+
+# Affichage des résultats du test
+print(Khi_squared_test)
+
+# Création d'un nouvel objet comprenant les valeurs dont j'ai besoin
+
+Khi <- data.frame(
+  jugeT = c(rep("Féminin", 2), rep("Masculin", 2)),
+  peine = c(0, 1, 0, 1),
+  effectifs_observés = c(10, 9, 9, 18),
+  effectifs_théoriques = c(7.85, 11.16, 11.16, 15.85)
+)
+
+```
+
+```{r}
+# Sélection des variables nécessaires pour la régression logistique
+
+data_multivar <- Data_jug %>%
+  select(jugeT, peine_prison, peine_prison_collectivité, antécédents, accusé) 
+
+data_multivar1 <- data_multivar %>%
+  mutate(peine = ifelse(peine_prison > 0, 1, 0))
+
+jugeT1 <- as.factor(data_multivar1$jugeT)  
+accuse1 <- as.factor(data_multivar1$accusé)
+
+# Régression logistique
+logistic_model <- glm(peine ~ jugeT1 + accuse1 + antécédents, data = data_multivar1, family = binomial)
+
+summary(logistic_model)
+
+```
+
+```{r}
+# Création des prédictions (Juge/Accusé/Antécédents)
+
+marginal_effects <- slopes(logistic_model)
+
+# Pour Masc/Masc/Antécédents
+
+P1 <- data.frame(jugeT1 = "Masculin", accuse1 = "Masculin", antécédents = 1, peine = 1)
+predictions1 <- predict(logistic_model, newdata = P1, type = "response")
+print(predictions1)
+
+# Pour Fém/Masc/Antécédents
+
+P2 <- data.frame(jugeT1 = "Féminin", accuse1 = "Masculin", antécédents = 1, peine = 1)
+predictions2 <- predict(logistic_model, newdata = P2, type = "response")
+print(predictions2)
+
+# Pour Masc/Fém/Antécédents
+P3 <- data.frame(jugeT1 = "Masculin", accuse1 = "Féminin", antécédents = 1, peine = 1)
+predictions3 <- predict(logistic_model, newdata = P3, type = "response")
+print(predictions3)
+
+# Pour Fém/Fém/Antécédents
+P4 <- data.frame(jugeT1 = "Féminin", accuse1 = "Féminin", antécédents = 1, peine = 1)
+predictions4 <- predict(logistic_model, newdata = P4, type = "response")
+print(predictions4)
+
+# Pour masc/masc/0Antécédent
+P5 <- data.frame(jugeT1 = "Masculin", accuse1 = "Masculin", antécédents = 0, peine = 1)
+predictions5 <- predict(logistic_model, newdata = P5, type = "response")
+print(predictions5)
+
+# Pour masc/fém/0Antécédent
+P6 <- data.frame(jugeT1 = "Masculin", accuse1 = "Féminin", antécédents = 0, peine = 1)
+predictions6 <- predict(logistic_model, newdata = P6, type = "response")
+print(predictions6)
+
+# Pour Fém/masc/0Antécédent
+P7 <- data.frame(jugeT1 = "Féminin", accuse1 = "Masculin", antécédents = 0, peine = 1)
+predictions7 <- predict(logistic_model, newdata = P7, type = "response")
+print(predictions7)
+
+# Pour Fém/fém/0Antécédent
+P8 <- data.frame(jugeT1 = "Féminin", accuse1 = "Féminin", antécédents = 0, peine = 1)
+predictions8 <- predict(logistic_model, newdata = P8, type = "response")
+print(predictions8)
+```
+
+```{r}
+pourcent_fr <- scales::label_percent(   
+  decimal.mark = ",",
+  suffix = " %"
+)
+
+```
+
+```{r}
+# Visualisation de la prédiction 1
+predictions_df_1 <- data.frame(
+  Cas = c("Juge \nmasculin", "Juge \nféminin"),
+  Probabilité_Peine = c(predictions1, predictions2)
+)
+
+G1 <- ggplot(predictions_df_1, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "", 
+       subtitle = "Accusé masculin \net présence d'antécédents") +
+  scale_y_continuous(labels = pourcent_fr) +
+  scale_x_discrete(labels = c("Juge Masculin" = "Juge Masculin", "Juge Féminin" = "Juge Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G1
+```
+
+```{r}
+# Visualisation de la prédiction 2
+
+predictions_df_2 <- data.frame(
+  Cas = c("Juge \nmasculin", "Juge \nféminin"),
+  Probabilité_Peine = c(predictions3, predictions4)
+)
+
+G2 <- ggplot(predictions_df_2, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "",subtitle = "Accusé féminin \net présence d'antécédents") +
+  scale_y_continuous(labels = pourcent_fr) +
+  scale_x_discrete(labels = c("Juge Masculin" = "Juge Masculin", "Juge Féminin" = "Juge Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G2
+```
+
+```{r}
+# Visualisation de la prédiction 3
+
+predictions_df_3 <- data.frame(
+  Cas = c("Juge \nmasculin", "Juge \nféminin"),
+  Probabilité_Peine = c(predictions5, predictions7)
+)
+
+G3 <- ggplot(predictions_df_3, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "",subtitle = "Accusé masculin \net absence d'antécédent") +
+  scale_y_continuous(labels = pourcent_fr) +
+  scale_x_discrete(labels = c("Juge Masculin" = "Juge Masculin", "Juge Féminin" = "Juge Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G3
+```
+
+```{r}
+# Visualisation de la prédiction 4
+
+predictions_df_4 <- data.frame(
+  Cas = c("Juge \nmasculin", "Juge \nféminin"),
+  Probabilité_Peine = c(predictions6, predictions8)
+)
+
+G4 <- ggplot(predictions_df_4, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "", subtitle = "Accusé féminin \net absence d'antécédent") +
+  scale_y_continuous(labels = pourcent_fr) + scale_x_discrete(labels = c("Juge Masculin" = "Juge Masculin", "Juge Féminin" = "Juge Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G4
+```
+
+```{r}
+# Visualisation de la prédiction 5
+
+predictions_df_5 <- data.frame(
+  Cas = c("Accusé \nmasculin", "Accsué \nféminin"),
+  Probabilité_Peine = c(predictions1, predictions3)
+)
+
+G5 <- ggplot(predictions_df_5, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = " ", y = "Probabilité d'une peine en prison", 
+       subtitle = "Juge masculin \net présence d'antécédents") +
+  scale_y_continuous(labels = pourcent_fr) + 
+  scale_x_discrete(labels = c("Accusé Masculin" = "Accusé Masculin", "Accusé Féminin" = "Accusé Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G5
+```
+
+```{r}
+# Visualisation de la prédiction 6
+
+predictions_df_6 <- data.frame(
+  Cas = c("Accusé \nmasculin", "Accsué \nféminin"),
+  Probabilité_Peine = c(predictions2, predictions4)
+)
+
+G6 <- ggplot(predictions_df_6, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = " ", y = "", 
+       subtitle = "Juge féminin \net présence d'antécédents") +
+  scale_y_continuous(labels = pourcent_fr) +
+  scale_x_discrete(labels = c("Accusé Masculin" = "Accusé Masculin", "Accusé Féminin" = "Accusé Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G6
+```
+
+```{r}
+# Visualisation de la prédiction 7
+
+predictions_df_7 <- data.frame(
+  Cas = c("Accusé \nmasculin", "Accsué \nféminin"),
+  Probabilité_Peine = c(predictions5, predictions6)
+)
+
+G7 <- ggplot(predictions_df_7, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = " ", y = "", 
+       subtitle = "Juge masculin \net absence d'antécédent") +
+  scale_y_continuous(labels = pourcent_fr) + scale_x_discrete(labels = c("Accusé Masculin" = "Accusé Masculin", "Accusé Féminin" = "Accusé Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G7
+```
+
+```{r}
+# Visualisation de la prédiction 8
+
+predictions_df_8 <- data.frame(
+  Cas = c("Accusé \nmasculin", "Accsué \nféminin"),
+  Probabilité_Peine = c(predictions7, predictions8)
+)
+
+G8 <- ggplot(predictions_df_8, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = " ", y = "", 
+       subtitle = "Juge féminin \net absence d'antécédent") +
+  scale_y_continuous(labels = pourcent_fr) + scale_x_discrete(labels = c("Accusé Masculin" = "Accusé Masculin", "Accusé Féminin" = "Accusé Féminin")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G8
+```
+
+```{r}
+# Visualisation de la prédiction 9
+
+predictions_df_9 <- data.frame(
+  Cas = c("Antécédents", "Pas \nd'antécédent"),
+  Probabilité_Peine = c(predictions1, predictions5)
+)
+
+G9 <- ggplot(predictions_df_9, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "", 
+       subtitle = "Juge masculin \net accusé masculin") +
+  scale_y_continuous(labels = pourcent_fr) + scale_x_discrete(labels = c("Antécédents" = "Antécédents ", "Pas d'antécédent" = "Pas d'antécédent")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G9
+```
+
+```{r}
+# Visualisation de la prédiction 10
+
+predictions_df_10 <- data.frame(
+  Cas = c("Antécédents", "Pas \nd'antécédent"),
+  Probabilité_Peine = c(predictions2, predictions7)
+)
+
+G10 <- ggplot(predictions_df_10, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "", 
+       subtitle = "Juge féminin \net accusé masculin") +
+  scale_y_continuous(labels = pourcent_fr) +
+  scale_x_discrete(labels = c("Antécédents" = "Antécédents ", "Pas d'antécédent" = "Pas d'antécédent")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G10
+```
+
+```{r}
+# Visualisation de la prédiction 11
+
+predictions_df_11 <- data.frame(
+  Cas = c("Antécédents", "Pas \nd'antécédent"),
+  Probabilité_Peine = c(predictions3, predictions6)
+)
+
+G11 <- ggplot(predictions_df_11, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "", 
+       subtitle = "Juge masculin \net accusé féminin") +
+  scale_y_continuous(labels = pourcent_fr) +
+   scale_x_discrete(labels = c("Antécédents" = "Antécédents ", "Pas d'antécédent" = "Pas d'antécédent")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+G11
+```
+
+```{r}
+# Visualisation de la prédiction 12
+
+predictions_df_12 <- data.frame(
+  Cas = c("Antécédents", "Pas \nd'antécédent"),
+  Probabilité_Peine = c(predictions4, predictions8)
+)
+
+G12 <- ggplot(predictions_df_12, aes(x = Cas, y = Probabilité_Peine)) +
+  geom_bar(stat = "identity", fill = "#FFDAB9") +
+  labs(x = "", y = "", 
+       subtitle = "Juge féminin \net accusé féminin") +
+  scale_y_continuous(labels = pourcent_fr) + scale_x_discrete(labels = c("Antécédents" = "Antécédents ", "Pas d'antécédent" = "Pas d'antécédent")) +
+  coord_cartesian(ylim = c(0, 0.85)) +
+  theme_minimal() +
+  theme(plot.subtitle = element_text(size = 7),
+        axis.text.x = element_text(size = 7)) 
+
+G12
+```
+
+```{r}
+# Groupement des visualisations des prédictions
+
+P1 <- G1|G2|G3|G4
+P1
+
+P2 <- G5|G6|G7|G8
+P2
+
+P3 <- G9|G10|G11|G12
+P3
+
+P4 <- P1 / P2 / P3 + plot_annotation(title = "Prédictions de peine de prison pour différentes combinaisons de variables")
+P4
+```
+
+\clearpage
+
+# Bibliographie
